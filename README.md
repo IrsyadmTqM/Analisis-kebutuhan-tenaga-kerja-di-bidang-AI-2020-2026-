@@ -5,14 +5,36 @@ Dataset : https://www.kaggle.com/datasets/shree0910/ai-and-data-science-job-mark
 
 ![alt text](image.png)
 
-HASIL : 
+Deskripsi Proyek
+Proyek ini menyajikan analisis komprehensif mengenai dinamika pasar kerja di bidang Kecerdasan Buatan (Artificial Intelligence) dengan fokus spesifik pada peluang kerja jarak jauh (remote) bagi tenaga kerja tingkat pemula (entry-level). Dengan memanfaatkan dataset pasar kerja AI global, analisis ini bertujuan untuk memberikan wawasan mendalam mengenai tren kompensasi, stabilitas peran, dan pergeseran permintaan industri selama periode tujuh tahun.
 
-KESIMPULAN : 
-Secara keseluruhan, kebutuhan tenaga kerja di bidang AI sangat masif dan cukup merata di berbagai posisi, dengan Business Analyst menempati urutan pertama sebagai posisi yang paling banyak dicari.
+Wawasan Utama (Executive Summary)
+Melalui serangkaian visualisasi data menggunakan Python (Pandas & Matplotlib), proyek ini berhasil mengidentifikasi beberapa tren krusial:
 
-Rincian Insight :
-Business Analyst Paling Diminati: Posisi ini memiliki total lowongan terbanyak (mendekati angka 9.000). Hal ini menunjukkan bahwa perusahaan saat ini tidak hanya butuh orang yang bisa membuat teknologi AI, tapi sangat butuh orang yang bisa menerjemahkan teknologi tersebut menjadi strategi bisnis yang menguntungkan.
+Dominasi Peran Inti AI: Posisi AI Engineer dan Machine Learning Engineer secara konsisten menempati hierarki kompensasi tertinggi di sektor Startup, dengan rata-rata gaji tahunan melampaui ambang batas $110.000.
 
-Permintaan Sangat Merata dan Kompetitif: Jika kita perhatikan panjang batangnya, jarak antara posisi pertama hingga posisi keenam (Data Engineer) tidak terlalu jauh. Semuanya berada di kisaran angka 8.000 hingga 9.000 lowongan. Ini berarti pasar kerja AI sedang berkembang pesat di semua lini data.
+Volatilitas Sektor Startup: Berbeda dengan perusahaan multinasional, sektor Startup menunjukkan volatilitas gaji yang lebih tinggi, yang mencerminkan respons cepat terhadap inovasi teknologi dan kondisi pendanaan ventura.
 
-Trio Data Tetap Kuat: Peran-peran teknis fundamental seperti Machine Learning Engineer, Data Scientist, dan Data Analyst saling menyusul dengan sangat ketat di posisi kedua, ketiga, dan keempat.
+Kebangkitan Data Engineering: Analisis tren menunjukkan pemulihan dan pertumbuhan konsisten pada peran Data Engineer sejak tahun 2022, mengindikasikan peningkatan kebutuhan infrastruktur data yang matang sebelum implementasi model AI.
+
+Stabilitas Karier: Peran AI Engineer teridentifikasi sebagai posisi yang paling stabil secara finansial, menunjukkan resistensi yang kuat terhadap fluktuasi pasar dibandingkan peran teknis lainnya.
+
+Metodologi Pengolahan Data
+Analisis ini dilakukan dengan tahapan sebagai berikut:
+
+Ekstraksi Data: Memuat dataset primer AI_Job_Market_Dataset.csv.
+
+Pembersihan & Transformasi: Melakukan filtrasi berlapis untuk menyaring data berdasarkan kategori Remote (Remote Type), Entry (Experience Level), dan Startup (Company Size).
+
+Agregasi Statistik: Menghitung rata-rata gaji tahunan per posisi pekerjaan menggunakan metode grouping berdasarkan tahun posting.
+
+Visualisasi Data: Mengonstruksi grafik garis (Time-Series Analysis) untuk memetakan lintasan pertumbuhan gaji secara akurat.
+
+Teknologi yang Digunakan
+Bahasa Pemrograman: Python
+
+Library Analisis: Pandas
+
+Library Visualisasi: Matplotlib, Seaborn
+
+Environment: Jupyter Notebook
